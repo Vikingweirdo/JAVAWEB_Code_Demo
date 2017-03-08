@@ -1,0 +1,1 @@
+document.write("<h1> use Document write</h1>");
