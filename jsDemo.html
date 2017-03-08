@@ -1,13 +1,23 @@
 <html>
 	<head>
 		<title>JavaScript Demo</title>
-		<script language="JavaScript" src="jsfile.js">
-
+		<script language="JavaScript" >
+			function fun(){
+			var name = document.myform.username.value;
+			var pass = document.myform.password.value;
+			alert(name + " hello word " + pass);
+			}
 		</script>
 	</head>
 	
 	<body>
-		
+	<form action="" method="post" name= "myform">
+
+		Username <input type="text" name="username">
+		Password <input type="password" name="password">
+		<input type="button" name="Push" value="Push" onclick="fun()">
+		<input type="reset" name="reset" value="reset" >
+	</form>
 	</body>
 	
 </html>
