@@ -9,7 +9,7 @@
 		Input user name :<input type="text"><br>
 		Input user pass :<input type="password"><br>
 		Your like :<br>
-		<input type="radio" name="sex" id="man" value="man">man
+		<input type="radio" name="sex" id="man" value="man" checked>man
 		<input type="radio" name="sex" id="women" value="women">women<br>
 		<input type="checkbox" id="sing">&nbsp;Sing
 		<input type="checkbox" id="dance" checked>&nbsp;Dance<br>
