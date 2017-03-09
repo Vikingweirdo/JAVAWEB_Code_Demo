@@ -1,0 +1,13 @@
+<html>
+	<head>
+		<title> OnClick Event </title>
+		<script language = "JavaScript">
+			function show(){
+				alert("µ¥»÷ÏÔÊ¾");
+			}
+		</script>
+	</head>
+	<body>
+		<a href ="#">push me </a>
+	</body>
+</html>
