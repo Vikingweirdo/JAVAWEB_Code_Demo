@@ -1,0 +1,7 @@
+function regist(){
+	var name = document.myform.username;
+	var pass = document.myform.userpass;
+	if("Viking" == name && "123" == pass){
+		alert("µÇÂ½³É¹¦");
+	}
+}
